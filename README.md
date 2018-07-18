@@ -15,8 +15,14 @@ EDBO Testblock
 
 # Запит
 
-Поле зліва - для валідного масиву json, що перередається в запиті
-Менше поле справа - для адреси запиту у форматі http://edbo.gov.ua/data/EDEBOWebApi/api/news/list
+Поле зліва - для валідного масиву json, що перередається в запиті. Наприклад.
+
+{
+  "oldPassword": 234567,
+  "newPassword": 901234
+}
+
+Менше поле справа - для адреси запиту у форматі https://edbo.gov.ua/data/EDEBOWebApi/api/auth/changePassword
 
 # Відповідь
 
