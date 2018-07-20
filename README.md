@@ -22,7 +22,7 @@ EDBO Testblock
   "newPassword": 901234
 }`
 
-Менше поле справа - для адреси запиту у форматі `https://edbo.gov.ua/data/EDEBOWebApi/api/auth/changePassword`
+Менше поле справа - для адреси запиту у форматі `http://edbo.gov.ua/data/EDEBOWebApi/api/auth/changePassword`
 
 # Відповідь
 
