@@ -32,5 +32,5 @@ EDBO Testblock
 
 У блоці відповіді публікуються заголовки відповіді, та безпосередньо відповідь.
 
-З питаннями - до вікі проекту: [https://github.com/akirichua/PHPEDBOsandbox/wiki]
+З питаннями - до вікі проекту: https://github.com/akirichua/PHPEDBOsandbox/wiki
 
