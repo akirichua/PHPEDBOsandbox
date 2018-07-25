@@ -14,7 +14,11 @@ include("config.php");
 </head>
 <body>
 <hr />
-<form method=POST>
+<form method=POST id="formid">
+<input type="radio" name="csv" value="csv" checked onclick="document.getElementById('formid').action='restsandbox.php'; document.getElementById('formid').method='POST';" /> - как json-ответ
+<input type="radio" name="csv" value="nocsv" onclick="document.getElementById('formid').action='fetch.php'; document.getElementById('formid').method='GET';" /> - как выгрузка всех страниц в csv (номер страницы обязательно заменять на %N, размер опционально на %S) <br />
+
+
 <textarea name="json" style="width:500px;height:500px"><?php echo $_POST["json"]; ?></textarea>
 <input type="text" name="address1" value="<?php echo $_POST["address1"]; ?>" /> 
  <input type=submit /> <a href='login.php?out'>Выйти?</a>
