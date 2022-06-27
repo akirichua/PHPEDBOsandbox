@@ -1,10 +1,4 @@
-<html>
-<head>
-  <title>PHPEDBOsandbox Readme</title>
-  </head>
-  <body>
-    <pre>
-  # PHPEDBOsandbox
+# PHPEDBOsandbox
 EDBO Testblock
 
 # Встановлення
@@ -47,6 +41,4 @@ EDBO Testblock
 У разі відповіді csv пропонується для завантаження файл у відповідному форматі.
 
 З питаннями - до вікі проекту: https://github.com/akirichua/PHPEDBOsandbox/wiki
-  </pre>
-  </body>
-</html>
+
